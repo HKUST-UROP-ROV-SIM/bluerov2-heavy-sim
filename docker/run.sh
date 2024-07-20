@@ -37,7 +37,7 @@ docker run -it \
     --mount type=bind,source=$colcon_ws_path,target=/home/orca4/colcon_ws \
     --privileged \
     --security-opt seccomp=unconfined \
-    orca4:latest
+    orca4:v1
 
 # # Specific for NVIDIA drivers, required for OpenGL >= 3.3
 # docker run -it \
